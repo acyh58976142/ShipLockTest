@@ -1,0 +1,732 @@
+/************************************************ 濠碉紕鍋戦崐妤呭极鐠囧樊鐒介柡澶婃櫇瑜庡鍕節閸曨剚鍠�  闂傚倷绶￠崑鍛潩閵娾晛鏋侀柕鍫濐槸閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷 ***********************************************/
+body {
+	font-family: 'Arial', 'Microsoft YaHei', '濠殿喗甯楃粙鎺楀垂瀹曞洨绀婇柨鐕傛嫹, '闂佽娴烽幊鎾活敄閸曨厾绀婇柨鐕傛嫹, sans-serif;
+	color:black;
+}
+
+/************************************************ bootstrap 闂備礁鎼粔鎾箠韫囨稒鍋嬮柟闂寸閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷***********************************************/
+/* 闂傚倷鐒﹁ぐ鍐矓閹绢喖鐤柟鍏煎敪w闂備礁鎼粔鎾床閼碱剚顫曢柨鐕傛嫹*/
+.common-row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* 闂傚倷鐒﹁ぐ鍐矓閹绢喖鐤柟鍏煎敪w闂備礁鎼粔鎾床閼碱剚顫曢柨娑樺瀹曞绻濋棃娑氬⒈闁诲孩褰冮—銏ゅΧ閸涱垰鐓熼梺绋垮嚱閹凤拷10px */
+.common-row-marginTop {
+	margin-top: 12px;
+}
+
+/************************************************ 闂傚倸鍊搁悧鍕垂閸濆嫷鐔嗛柨鐕傛嫹 闂傚倷绶￠崑鍛潩閵娾晛鏋侀柕鍫濐槸閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷 ***********************************************/
+/* 闂傚倸鍊搁悧鍕垂閸濆嫷鐔嗛柨鐕傛嫹 */
+.common-panel {
+	border-radius: 0px 0px 0px 0px;
+}
+
+/* 闂傚倸鍊搁悧鍕垂閸濆嫷鐔嗛柨鐕傛嫹濠电姰鍨奸崺鏍箰閹惰棄纾块柟缁㈠枛濡﹢鏌涢妷鎴濇噺閹茬粯淇婇銈咁暭缂侇喖绻戠粩鐔兼晸閿燂拷*/
+.common-panel>.panel-heading {
+	color: #555555;
+}
+
+/* 闂傚倸鍊搁悧鍕垂閸濆嫷鐔嗛柨鐕傛嫹濠电姰鍨奸崺鏍箰閹惰棄纾块柟缁㈠枛閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷*/
+.common-panel-heading {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-weight: 800;
+}
+
+/* 闂傚倸鍊搁悧鍕垂閸濆嫷鐔嗛柨鐕傛嫹body闂備礁鎲″銊ф暜绾攨d闂備礁鎼粔鎾床閼碱剚顫曢柨鐕傛嫹/
+.common-panel-gridbody{
+	padding: 0px 0px 0px 0px;
+}
+
+/************************************************ 闂佽崵鍋炵粙蹇涘礉鐏炵晫鏆﹂柨鐕傛嫹 闂傚倷绶￠崑鍛潩閵娾晛鏋侀柕鍫濐槸閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷 ***********************************************/
+/* 闂佸搫顦悧濠囧箰閹间礁鐭楅柛鈩冾殢濞存牠鏌涢埄鍐炬闁哥喎娲弻娑㈡晲韫囨柨顏�  */
+.common-fromContainer {
+	margin-bottom: 20px;
+	line-height: 35px;
+	height: 100%;
+}
+
+/* 闂傚鍋勫ú銈夊箠鎼淬劍鏅查柣鎰暜閹峰嘲鈽夊▎妯荤暦濡炪倖妫戦幏锟�  */
+.common-formRequired {
+	color: red;
+	margin-right: 5px;
+}
+
+/* 闂佸搫顦悧濠囧箰閹间礁鐭楅柛鈩冾殢濞存牠鏌涢埄鍏╂垿鎮楅锟介弻锟犲醇椤掍礁顏�  */
+.common-formLabel {
+	margin-bottom: 0px;
+	/* color: #666666; */
+	font-weight: 500;
+	line-height: 34px;
+}
+
+/* 闂佸搫顦悧濠囧箰閹间礁鐭楅柛鈩冾殢濞存牠鏌涢埄鍐炬闁轰礁鐖奸幃妤呮儌閸涘﹤顏�  */
+.common-formContent {
+	padding-left: 0px;
+	padding-right: 60px
+}
+/**濠电姰鍨奸崺鏍ㄧ┍濞差亗锟戒線骞嬮敃锟藉Λ姗�鏌涢妷锝呭闁圭兘浜堕弻娑㈠煛閸愩劍鐏佸銈傛櫔缁犳垿锝為姀銈咁潊闁炽儱纾ぐ宀勬⒑閻熸澘娈╅柟鍑ゆ嫹/
+.common-textarea {
+	resize: none;
+}
+/**闂備胶鍎甸崑鎾诲礉鐎ｎ剝濮虫い鎺戝閳锋洟鏌熼柇锕�鐏℃い銉﹀灴閺岀喓鍠婃径瀣伓闂傚倸鍊稿ù鍕箯閻戣姤鍊垫繛鎴炵懐濞堟洘銇勯弮鎾村*/
+.common_display {
+	display: none;
+}
+
+/************************************************ 闂佽崵鍋炵粙蹇涘礉瀹ュ鍋嬮柨鐕傛嫹 闂傚倷绶￠崑鍛潩閵娾晛鏋侀柕鍫濐槸閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷 ***********************************************/
+/* 闂佸搫顦悧鎰帮綖婢舵劑锟戒線鏁撻敓锟� */
+.common-table {
+	border: 1px solid #dddddd;
+	white-space: nowrap;
+	width:99.9%;
+	color:black;
+}
+
+.table>tbody>tr>td{
+	color:black;
+	
+}
+
+/* 闂備胶鎳撻崥瀣垝鎼淬劌纾奸柨鐕傛嫹 */
+.common-table-search {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background: #f2f3f3;
+}
+
+/* 闂備胶鎳撻崥瀣垝鎼淬劌纾奸柍琛℃殕bel闂備礁鎼粔鏉懨洪妸鈺婃晢闁跨噦鎷� */
+.common-table-searchLabel {
+	margin-bottom: 0px;
+	color: #666666;
+	font-weight: 500;
+	line-height: 34px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* 闂備胶鎳撻崥瀣垝鎼淬劌纾奸柕濠忛檮缂嶅洭鏌熼幆褍鏆辩�殿喛娅曟穱濠偽旂�ｎ偄顏�  */
+.common-table-searchInput {
+	padding-left: 0px;
+}
+
+/* 闂佽崵鍋炵粙蹇涘礉瀹ュ鍋嬮柟闂寸劍閸婄兘鏌ｉ悢鍛婄凡婵絽锕弻锟犲礃椤撶偟鍘梺缁橆殔瀹曨剟顢氶敐澶嬫櫢闁跨噦鎷�*/
+.common_checked_tr {
+	background-color:#d9edf7;   /* #f5f5f5; */
+	color: #666666;
+}
+
+/* 闂備礁婀遍…鍫ニ囬悽绋跨鐎规洖娲ㄧ壕濂告煥閻曞倹瀚� */
+.common-table-btngroup {
+	padding-right: 25px;
+}
+/* 闂佽崵鍋炵粙蹇涘礉瀹�鍕﹂柡鍐ㄧ墛閸ゅ嫰鎮橀悙闈涗壕闁绘繍鍨堕弻銈夋儌閸涘﹤顏�  */
+.common-table>thead {
+	color: #555555;
+	background: #eff7f9;
+}
+
+/* 闂佽崵鍋炵粙蹇涘礉瀹ュ鍋嬮柟闂寸缁�鍐煕濞戝崬寮鹃柛鐕傛嫹 */
+.common-table>tbody {
+	color: #666666;
+}
+/************************************************ 闁诲孩顔栭崰姘跺箠閹捐鍚规い鎾跺剱濞存牠鏌ㄩ悤鍌涘  闂傚倷绶￠崑鍛潩閵娾晛鏋侀柕鍫濐槸閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷 ***********************************************/
+/* 婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯缍侀弫鎾绘晸閿燂拷*/
+.common-modal-dialog {
+	width: 75%;
+}
+
+/* 婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯绲介‖澶婎瀶閸у崓 */
+.common-modal-head {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* 婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯绲借灃闁跨喍绮欐俊鐢稿籍閸喓鍔搁梺闈涱焾閸婃挾鎹㈤崱娑欑厵妞ゆ挶鍔嶇�氾拷 */
+.common-modal-head>h4 {
+	font-size: 15px;
+}
+
+/* 婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯绲借灃闁跨喍绮欏畷顒傦拷鐢告交閹风兘鎯傞崨濠傤伓 */
+.common-modal-body {
+	padding: 0px;
+}
+
+/* 婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯绲借灃濞达絽鎼悘杈ㄤ繆椤愩垹绨婚柟鍑ゆ嫹*/
+.common-modal-title {
+	letter-spacing: 1px;
+}
+
+/* 婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯绲借灃闁跨喍绮欏畷锝堫樄婵﹤顭烽、姗�鎮㈡搴⑩枎闂傚倷鐒﹂弸濠氬箯閿燂拷/
+.common-modal-close {
+	font-size: 20px;
+}
+
+/* 婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯绲借灃闁告洍鏅幏鐑藉礃椤旂厧鍞ㄩ梺璺ㄥ櫐閹凤拷*/
+.common-modal-table {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/**婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯绲借灃闁跨喓鏅懞閬嶅箮閼恒儳鍔搁梺闈涱煭缁犳垿鎯佹繝姘拺缂佹稑顑呴弸娑㈡煟椤忓洦鐝紒瀣樀閺佹捇鏁撻敓锟�/
+.common-modal-foot {
+	text-align: center;
+}
+/**婵犵妲呴崹顏堝礈濠靛鏅搁柟瀛樺笧椤︽煡鏌ら弶鎴姛缂侇噯绲借灃闁告洦鍘鹃悙鏇㈡⒑缁嬭法绠為柛搴㈢叀瀵悂宕橀鐓庣彉濡炪倖甯婄欢锟犲绩閿燂拷/
+.common-modal-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/************************************************ 闂備礁婀遍…鍫ニ囬悽绋跨闁跨噦鎷� 闂傚倷绶￠崑鍛潩閵娾晛鏋侀柕鍫濐槸閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷 ***********************************************/
+/* 闂備礁婀遍…鍫ニ囬悽绋跨闁规儼妫勯悙濠囨煟閹伴潧澧伴柛銊у帶铻為柣妤�鐗忛惌搴☆熆閻у憡瀚�  */
+.common-btn-fa-white {
+	color: white;
+}
+
+/* 闂備礁婀遍…鍫ニ囬悽绋跨闁规儼妫勫Λ姗�鏌涢妷鎴濇噺閹茬粯淇婇銈咁暭缂侇喖绻戠粩鐔兼晸閿燂拷 */
+.common-btn-span-white {
+	color: white;
+}
+
+/* 闂傚倷绶￠崑鍕囬幍顕嗘嫹闁跨噦鎷� */
+.common-btnSelect {
+	background: #3498db;
+	color: #ffffff
+}
+
+/**闂傚倷鐒︾�笛囨偡閵娾晩鏁嬮柕鍫濇－濞堢晫锟界櫢鎷烽崯鏉课ｉ崼銉︾厵缂備焦锚婵鏌曢崶銊ь暡缂佸矂浜堕崺鍕礃瑜忕粈锟�**/
+.common_wrong {
+	color: red;
+	padding-left: 20px;
+	white-space: nowrap;
+	background: url("img/error.png") no-repeat left center;
+	margin-left: 8px;
+	line-height: 20px;
+	height: 20px;
+	overflow: hidden;
+	color: #999;
+	font-size: 12px;
+}
+
+.common-info {
+	border: 1px solid #ccc;
+	padding: 2px 20px 2px 5px;
+	color: #666;
+	position: absolute;
+	line-height: 20px;
+	background-color: #fff;
+	top: -35px;
+	right: 0;
+}
+
+.common-info .dec {
+	bottom: -8px;
+	display: block;
+	height: 8px;
+	overflow: hidden;
+	position: absolute;
+	left: 10px;
+	width: 17px;
+}
+
+.common-info .dec s {
+	font-family: simsun;
+	font-size: 16px;
+	height: 19px;
+	left: 0;
+	line-height: 21px;
+	position: absolute;
+	text-decoration: none;
+	top: -9px;
+	width: 17px;
+}
+
+.common-info .dec .dec1 {
+	color: #ccc;
+}
+
+.common-info .dec .dec2 {
+	color: #fff;
+	top: -10px;
+}
+
+/* 闂備浇鐨崟顒夌�惧銈嗘閹凤拷-濠电儑绲藉ú锔炬崲閸岀偞鍋ら柕濞炬櫇瀹撲線鏌ら幖浣规锭闁愁亞鏁婚弻娑樜旂�ｎ偄顏� */
+.common_btn_save {
+	border: none;
+	width: 120px;
+	height: 35px;
+	font-size: 14px;
+	color: #ffffff;
+	background-image: url("img/gg_top/btn_confirm.png");
+}
+/* 闂備浇鐨崟顒夌�惧銈嗘閹凤拷-闂備礁鎲￠悷锕傛偋濡ゅ啰鐭撻柨鐕傛嫹 */
+.common_btn_cancel {
+	border: none;
+	width: 87px;
+	height: 35px;
+	font-size: 14px;
+	color: #ffffff;
+	background-image: url("img/gg_top/btn_cancel.png");
+}
+
+/* 闂備礁鎲＄敮妤�顭垮锟介幆宀勫冀椤愶絽鍘瑰銈嗘⒐椤戞瑩宕ラ敓钘夆攽閻戝洨绉い鏇嗗嫭鍙忛柣鎰惈缁犳澘顭块懜闈涘閻忓骏鎷� */
+.common_btn_add {
+	padding: 0px;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #21b9bb;
+	color: #21b9bb;
+	border-radius: 4px;
+	background: white;
+	text-align: center;
+	font-size: 12px;
+}
+/* 闂備礁鎲＄敮妤�顭垮锟介幆宀勫冀椤愶絽鍘瑰銈嗘⒐椤戞瑩宕ラ敓钘夆攽閻戝洨绉い鏇嗗嫭鍙忛柣鎰惈缁犳澘顭块懜闈涘閻忓骏绠戦湁缁炬澘褰夌花浠嬫偠濮樼偓瀚�  */
+.common_btn_add:hover {
+	padding: 0px;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #21b9bb;
+	color: white;
+	border-radius: 4px;
+	background: #21b9bb;
+	text-align: center;
+	font-size: 12px;
+}
+/* 闂備礁鎲＄敮妤�顭垮锟介幆宀勫冀椤愶絽鍘瑰銈嗘⒐椤戞瑩宕ラ敓鐣岀磽娴ｅ壊妯嗘い顓炲槻閳诲秵鎯旈妸銉ь唶婵犮垼鍩栭崝鏍焊閿燂拷 */
+.common_btn_remove {
+	padding: 0px;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #f7a54a;
+	color: #f7a54a;
+	border-radius: 4px;
+	background: white;
+	text-align: center;
+	font-size: 12px;
+}
+/* 闂備礁鎲＄敮妤�顭垮锟介幆宀勫冀椤愶絽鍘瑰銈嗘⒐椤戞瑩宕ラ敓鐣岀磽娴ｅ壊妯嗘い顓炲槻閳诲秵鎯旈妸銉ь唶婵犮垼鍩栭崝鏍焊閿曪拷闇夌痪鏉垮綁缁ㄤ粙鎮跺鐐  */
+.common_btn_remove:hover {
+	padding: 0px;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #f7a54a;
+	color: white;
+	border-radius: 4px;
+	background-color: #f7a54a;
+	text-align: center;
+	font-size: 12px;
+}
+
+/* 闂備礁鎲＄敮鐐存櫠濡ゅ懏鍤堥柟閭﹀枟閸忔粍銇勯弮锟介娆撳触閿熺晫绱撴担绋匡拷鐑芥嚄閸洖鏋侀柨鐕傛嫹 */
+.common_btn_disp {
+	padding: 0px;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #f5f5f5;
+	background-color: #f5f5f5;
+	color: #333;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 10px;
+}
+.common_btn_disp_b {
+	padding: 0px;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #f5f5f5;
+	background-color: #f5f5f5;
+	color: #333;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 10px;
+}
+/*My97DatePicker闂備礁鎼崯銊╁磿閸楃儐鍟呭┑鐘宠壘缁犲磭鎲哥仦瑙ｆ瀻闁靛繈鍊栭ˉ鏃堟煟濡寧顏犵紒鐘垫暁ootstrap闂備礁鎼粔鎾床閼碱剚顫曢柨鐕傛嫹  */
+.common-datepicker {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/*闂備礁鎲￠〃婵喢哄Ο琛℃敠闁跨喍绮欓弻銈夋閳哄倸顏�-闂佸搫顦悧濠囧箰閹间礁鐭楅柛鈩冾殢濞存牠鏌ㄩ悤鍌涘*/
+.commom-select-input {
+	margin: 8px 0px;
+}
+/**
+*濠电偞鍨堕幐鎼佹晝閿濆洦顫曢柛顐ｆ礀閻愬﹪鏌涢幘妤�鍠氶弳锟�
+*/
+span.common-uploadImage {
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+	cursor: pointer;
+	background: #f0ad4e;
+	border-radius: 10px;
+	padding: 2px 10px;
+	color: white;
+}
+span.common-eloamImage{
+	position: absolute;
+	bottom: 5px;
+	right: 180px;
+	cursor: pointer;
+	background: #5bc0de;
+	border-radius: 10px;
+	padding: 2px 10px;
+	color: white;
+}
+span.common-uploadImage:hover {
+	background: #eea236
+}
+
+.common-imageDiv {
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 6px;
+	padding-bottom: 20px;
+}
+
+/************************************************ 闂備礁鎼ˇ濠氬疮閺夋埈婀繛宸簻缁犳澘顭块懜闈涘閻忓骏鎷� 闂傚倷绶￠崑鍛潩閵娾晛鏋侀柕鍫濐槸閸愶拷閻庣懓瀚竟鍡欐兜閿燂拷 ***********************************************/
+#applyCancel-cancelApply1 {
+	display: none
+}
+
+#applyCancel-cancelApply {
+	display: none
+}
+
+#applyCancel-updateCancelApply {
+	display: none
+}
+
+#applyCancel-checkCancelApply {
+	display: none
+}
+
+#applyPut-application {
+	display: none;
+}
+
+#applyPut-Updateapplication {
+	display: none;
+}
+
+#applyPut-examine {
+	display: none;
+}
+
+#illegalHandle-add {
+	display: none;
+}
+
+#illegalHandle-result {
+	display: none;
+}
+
+#checkTon_btn_add {
+	display: none;
+}
+
+#checkTon_btn_update {
+	display: none;
+}
+
+#checkTon_btn_handle,#checkTon_btn_approval,#checkTon_revoke {
+	display: none;
+}
+
+#freeAppliction_btn_add {
+	display: none;
+}
+
+#freeAppliction_btn_update {
+	display: none;
+}
+
+#freeAppliction_btn_handle {
+	display: none;
+}
+
+#barge_Audite {
+	display: none;
+}
+
+#barge_add {
+	display: none;
+}
+
+#barge_update {
+	display: none;
+}
+
+#barge_delete {
+	display: none;
+}
+
+#barge_export {
+	display: none;
+}
+
+#dangerQueueReg_btn_save {
+	display: none;
+}
+
+#upPre_preArrange {
+	display: none;
+}
+
+#downPre_preArrange {
+	display: none;
+}
+
+#upConfirm_btn_ok {
+	display: none;
+}
+
+#downConfirm_btn_ok {
+	display: none;
+}
+
+#normalLock-btnFee {
+	display: none;
+}
+
+#cancelRefund-btnFee {
+	display: none;
+}
+
+#cancelRefund-btnCancel {
+	display: none;
+}
+
+#dangerReg-save {
+	display: none;
+}
+
+
+
+#dangerousVessel_add {
+	display: none;
+}
+
+#dangerousVessel_update {
+	display: none;
+}
+
+#dangerousVessel_delete {
+	display: none;
+}
+
+#dangerousVessel_export {
+	display: none;
+}
+
+#dangerousVessel_audit {
+	display: none;
+}
+
+
+
+#generalVessel_add {
+	display: none;
+}
+
+#generalVessel_update {
+	display: none;
+}
+
+#generalVessel_delete {
+	display: none;
+}
+
+#generalVessel_export {
+	display: none;
+}
+
+#generalVessel_audit {
+	display: none;
+}
+
+
+
+#generalQueue_add {
+	display: none;
+}
+
+#generalQueue_update {
+	display: none;
+}
+
+#generalQueue_delete {
+	display: none;
+}
+
+#generalQueue_export {
+	display: none;
+}
+
+#generalQueue_aduit {
+	display: none;
+}
+
+#dangerQueue_add {
+	display: none;
+}
+
+#dangerQueue_update {
+	display: none;
+}
+
+#dangerQueue_delete {
+	display: none;
+}
+
+#dangerQueue_export {
+	display: none;
+}
+
+#dangerQueue_aduit {
+	display: none;
+}
+
+
+
+#btnReopenBill {
+	display: none;
+}
+
+
+#changeShift_groupSelect {
+	display: none;
+}
+
+/* #changeShift_groupName{
+	display:none;
+} */
+
+#blacklist_save{
+	display:none;
+}
+
+#blacklist_update{
+	display:none;
+}
+
+#blacklist_delete{
+	display:none;
+}
+
+#generalReg-save{
+	display:none;
+}
+
+#generalQueueReg_btn_save{
+	display:none;
+}
+
+#normalLock-exitPut{
+	display:none;
+}
+
+#btnExcelReportFee{
+	display:none;
+}
+#preBatch_transToWait{
+	display:none;
+}
+#preBatch_transToDelay{
+	display:none;
+}
+#preBatch_transToUndo{
+	display:none;
+}
+#preBatch-budiao{
+	display:none;
+}
+#preArrange_transToWait{
+	display:none;
+}
+#preArrange_transToDelay{
+	display:none;
+}
+#preArrange_transToUndo{
+	display:none;
+}
+#upPre_preArrange0{
+	display:none;
+}
+#upPre_preArrange1{
+	display:none;
+}
+#delayArrange_transToWait{
+	display:none;
+}
+#withoutArrange_transToWait{
+	display:none;
+}
+#waitArrange_transToUndo{
+	display:none;
+}
+#waitArrange_transToDelay{
+	display:none;
+}
+#changeShifts_fee_count{
+	display:none;
+}
+#generalVessel_changeDanger{
+	display:none;
+}
+#dangerousVessel_changeGeneral{
+	display:none;
+}
+#whiteList_add{
+	display:none;
+}
+#whiteList_update{
+	display:none;
+}
+#waitArrange_excel{
+	display: none;	
+}
+#makeRegisterFrom_excel{
+	display: none;	
+}
+#applyCancelQuery_revoke{
+	display: none;	
+}
+#approvalExamine_btn{
+	display: none;	
+}
+#cancelRefund-btnFee1{
+	display: none;	
+}
+#approval{
+	display: none;	
+}
+
+#normalLock-btnBankFee{
+	display:none;
+}
+
+
+

@@ -1,0 +1,53 @@
+
+
+/**
+ * 数据字典key 枚举
+ */
+ var DictionaryKey = 
+ {
+	WORK_TEAM:'WORK_TEAM',//("所属工班")
+	FEE_SCALE:'FEE_SCALE',//("收费标准")
+	IP_ADDRESS:'IP_ADDRESS',//("IP地址")
+	SHIFT:'SHIFT',//("班次")
+	LOCK_PARAMETER:'LOCK_PARAMETER',//("闸室参数")
+	LOCK:'LOCK',//("闸室")
+	YN_OPTION:'YN_OPTION',//("是否")
+	
+	ISFLEET:'ISFLEET',//("是否船队")
+	ISDANGEROUS:'ISDANGEROUS',//("是否危险品")
+	ISNOLOAD:'ISNOLOAD',//("是否空载")
+	ISOVERWIDTH:'ISOVERWIDTH',//("是否超宽")
+	ISINSTALLTERMINAL:'ISINSTALLTERMINAL',//("是否终端船舶")
+	LOCATION:'LOCATION',//("上下游")
+	REGISTER_WAY:'REGISTER_WAY',//("登记方式")
+	VESSELSTATE:'VESSELSTATE',//船舶状态(0-待缴费库 1-待调库 2-调度库 3-未调库 4-延时库 5-已过闸库)
+	VESSELTYPE:'VESSELTYPE',//船舶类型(1普通单机船，2普通船队，3危险品单机船，4危险品船队)
+	CHECKSTATE:'CHECKSTATE',//查补信息
+	INVOICESTATE:'INVOICESTATE',//("发票状态")
+	VERSIONFILE:'VERSIONFILE',//版本文件状态
+	ILLEGALSTATE:"ILLEGALSTATE",//违章状态
+	CARGO_NAME:"CARGO_NAME",//货物品种
+	VIPSTATE:"VIPSTATE",//提放状态
+	SMS_USER_TYPE:"SMS_USER_TYPE",//接收短信用户类型
+	UNREGISTSTATE:"UNREGISTSTATE",//注销状态
+	WORK_TEAM:"WORK_TEAM",//运行工班
+	CANCELTYPE:"CANCELTYPE", //销号类型
+	CERTIFICATE_TYPE:"CERTIFICATE_TYPE",//证件类型
+	FL_TYP:"FL_TYP",//燃料类型  
+	ORRTNG_TYP:"ORRTNG_TYP",//营运类型  
+	HULL_MATERIAL_TYPE:"HULL_MATERIAL_TYPE"//船体材料     
+
+		
+		
+		
+
+		
+		
+		
+ };
+ 
+ 
+ 
+ 
+ 
+ 
